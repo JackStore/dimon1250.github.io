@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1024px) {
+    .body {
+        width: 80%;
+    }
+    
+    .header_fixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 1024px;
+    }
+
+    .navigation_bar {
+        width: 35%;
+    }
+
+    .first_block {
+        width: 1024px;
+        justify-content: space-between;
+    }
+
+    .first_block_content {
+        font-size: 13px;
+    }
+
+    .second_block {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third_block {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_bar {
+        width: 95%;
+        padding: 0 0 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        width: 60%;
+    }
+    
+    .header_fixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 768px;
+    }
+
+    .navigation_bar {
+        width: 45%;
+    }
+
+    .first_block {
+        width: 768px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_block_content {
+        font-size: 13px;
+        padding: 0 0 0 50px;
+        
+    }
+
+    .second_block {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 0 0 100px;
+    }
+
+    .third_block {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_bar {
+        width:  100%;
+        padding: 0 0 0 50px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .body {
+        width: 100%;
+    }
+    
+    .header_fixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 425px;
+    }
+
+    .navigation_bar {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .first_block {
+        width: 400px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_block_content {
+        font-size: 14px;
+        
+        
+    }
+
+    .second_block {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .third_block {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_bar {
+        width:  100%;
+        padding: 0 0 0 50px;
+    }
+}
